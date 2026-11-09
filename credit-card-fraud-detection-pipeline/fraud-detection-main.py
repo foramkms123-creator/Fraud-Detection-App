@@ -32,7 +32,7 @@ TOP_N_FEATURES = 19
 
 # ------------------------------------- Data Loading -----------------------------------------------------------
 print("Loading data...")
-df = pd.read_csv("/Users/emmanueldanielchonza/Documents/DS-final-project/sampledcreditcard.csv")
+df = pd.read_csv("../data/sampledcreditcard.csv")
 print(f"Dataset shape: {df.shape}")
 print(df[TARGET_COL].value_counts())
 
